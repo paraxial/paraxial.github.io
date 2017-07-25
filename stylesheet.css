@@ -1,0 +1,53 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #483D3F;
+  color: #F1FFE7;
+  text-align: center;
+}
+
+h1 {
+  margin: 0.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid;
+}
+
+p {
+  overflow-wrap: break-word;
+  text-align: justify;
+}
+
+p::first-letter {
+  font-size: 1.2rem;
+}
+
+a {
+  color: #8B5FBF;
+  font-size: 2rem;
+}
+
+a:hover {
+  color: #643A71;
+}
+
+.flex-container {
+  max-width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.side-by-side {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.side-by-side > a {
+  margin: 0 2rem;
+}
+
+@media only screen and (min-width: 768px) and (min-device-width: 768px) {
+  .flex-container {
+    width: 50%;
+    margin: auto;
+  }
+}
