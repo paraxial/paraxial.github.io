@@ -1,1 +1,0 @@
-# paraxial.github.io
