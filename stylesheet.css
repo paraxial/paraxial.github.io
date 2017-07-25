@@ -47,7 +47,7 @@ a:hover {
 
 @media only screen and (min-width: 768px) and (min-device-width: 768px) {
   .flex-container {
-    width: 50%;
+    width: 50rem;
     margin: auto;
   }
 }
